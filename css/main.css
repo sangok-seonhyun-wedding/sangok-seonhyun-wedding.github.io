@@ -98,9 +98,9 @@ div.sect06 div.sect-con div.map-wrap{width:100%; height:15rem; border:1px solid 
 div.sect06 div.sect-con .root_daum_roughmap,
 div.sect06 div.sect-con .root_daum_roughmap .wrap_map{width:100%; height:15rem;}
 div.sect06 div.map-list{display:flex; justify-content:center; align-items:center; margin-top:1.5rem;}
-div.sect06 div.map-list > a{display:inline-block; width:; height:2rem; line-height:2rem; border-radius:5px; text-align:center; color:#fff;}
-div.sect06 div.map-list > a.kakao{background:#ffeb00;}
-div.sect06 div.map-list > a.naver{background:#ffeb00;}
+div.sect06 div.map-list > a{display:inline-block; width:7.5rem; height:2rem; line-height:2rem; border-radius:5px; text-align:center;}
+div.sect06 div.map-list > a.kakao{background:#ffeb00; margin-right:0.5rem; color:#333;}
+div.sect06 div.map-list > a.naver{background:#19ce60; color:#fff;}
 div.sect06 div.sect-con ul li{position:relative; line-height:1.3; word-break:keep-all;}
 div.sect06 div.sect-con ul.list01{margin-top:1.5rem;}
 div.sect06 div.sect-con ul.list01 > li{padding-left:0.6rem; margin-bottom:1rem; font-weight:900;}
