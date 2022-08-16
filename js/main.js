@@ -48,30 +48,32 @@ $(document).ready(function(){
 	// 갤러리
 	$("div.sect04 a.more, div.sect04 div.gallery > div[class^='group'] div.image").click(function(){
 		$("div.modal-gallery").fadeIn();
-		$("div.gallery-slider, div.gallery-slider-nav").resize();
+		//$("div.gallery-slider, div.gallery-slider-nav").resize();
+		$("div.gallery-slider").slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: false,
+			fade: true,
+			asNavFor: ".gallery-slider-nav",
+		});
+		$("div.gallery-slider-nav").slick({
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			arrows: false,
+			centerMode: true,
+			focusOnSelect: true,
+			asNavFor:".gallery-slider",
+		});
 	});
 	$("div.modal-gallery button.close-btn").click(function(){
 		$("div.modal-gallery").fadeOut();
 	});
 	
-	$("div.gallery-slider").slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		arrows: false,
-		fade: true,
-		asNavFor: ".gallery-slider-nav",
-	});
-	$("div.gallery-slider-nav").slick({
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		arrows: false,
-		centerMode: true,
-		focusOnSelect: true,
-		asNavFor:".gallery-slider",
-	});
+	/*
 	$("div.modal-gallery").on("open", function (e) {
 		$("div.gallery-slider, div.gallery-slider-nav").slick("setPosition");
 	});
+	*/
 
 	// 연락처 보기
 	$("div.modal-contact").hide();
