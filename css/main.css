@@ -180,7 +180,7 @@ div.sect08 div.sect-con div.list.open div.list-tit div.left span.txt{color:#fff;
 div.sect08 div.sect-con div.list.open div.list-tit div.right{background-image:url("../img/arrow_R_WH.png"); transform:rotate(90deg);}
 
 div.sect09{padding-bottom:1rem; text-align:center;}
-div.sect09 div.line{width:1px; height:5rem; background:#333; margin:3rem auto; animation:line 2s forwards; animation-delay:0.5s;}
+div.sect09 div.line{width:1px; height:5rem; background:#333; margin:0 auto 3rem; animation:line 2s forwards; animation-delay:0.5s;}
 div.sect09 div.txt{line-height:1.5;}
 div.sect09 div.image img{width:50%; height:auto; margin:3rem auto 1.5rem;}
 div.sect09 div.link{display:flex; justify-content:center; align-items:center; margin-top:5rem;}
