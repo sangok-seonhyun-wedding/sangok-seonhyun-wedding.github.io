@@ -1,88 +1,3 @@
-/*noto sans_서버용*/
-@font-face {
-font-family: 'NotoKr_BK';
-src: url('../fonts/NotoKr_BK.eot');
-src: url('../fonts/NotoKr_BK.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/NotoKr_BK.woff2') format('woff2'),
-    url('../fonts/NotoKr_BK.woff') format('woff'),
-    url('../fonts/NotoKr_BK.ttf') format('truetype'),
-    url('../fonts/NotoKr_BK.svg#NotoKr_BK') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'NotoKr_B';
-src: url('../fonts/NotoKr_B.eot');
-src: url('../fonts/NotoKr_B.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/NotoKr_B.woff2') format('woff2'),
-    url('../fonts/NotoKr_B.woff') format('woff'),
-    url('../fonts/NotoKr_B.ttf') format('truetype'),
-    url('../fonts/NotoKr_B.svg#NotoKr_B') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'NotoKr_DL';
-src: url('../fonts/NotoKr_DL.eot');
-src: url('../fonts/NotoKr_DL.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/NotoKr_DL.woff2') format('woff2'),
-    url('../fonts/NotoKr_DL.woff') format('woff'),
-    url('../fonts/NotoKr_DL.ttf') format('truetype'),
-    url('../fonts/NotoKr_DL.svg#NotoKr_DL') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'NotoKr_L';
-src: url('../fonts/NotoKr_L.eot');
-src: url('../fonts/NotoKr_L.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/NotoKr_L.woff2') format('woff2'),
-    url('../fonts/NotoKr_L.woff') format('woff'),
-    url('../fonts/NotoKr_L.ttf') format('truetype'),
-    url('../fonts/NotoKr_L.svg#NotoKr_L') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'NotoKr_M';
-src: url('../fonts/NotoKr_M.eot');
-src: url('../fonts/NotoKr_M.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/NotoKr_M.woff2') format('woff2'),
-    url('../fonts/NotoKr_M.woff') format('woff'),
-    url('../fonts/NotoKr_M.ttf') format('truetype'),
-    url('../fonts/NotoKr_M.svg#NotoKr_M') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'NotoKr_R';
-src: url('../fonts/NotoKr_R.eot');
-src: url('../fonts/NotoKr_R.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/NotoKr_R.woff2') format('woff2'),
-    url('../fonts/NotoKr_R.woff') format('woff'),
-    url('../fonts/NotoKr_R.ttf') format('truetype'),
-    url('../fonts/NotoKr_R.svg#NotoKr_R') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-
-@font-face {
-font-family: 'NotoKr_T';
-src: url('../fonts/NotoKr_T.eot');
-src: url('../fonts/NotoKr_T.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/NotoKr_T.woff2') format('woff2'),
-    url('../fonts/NotoKr_T.woff') format('woff'),
-    url('../fonts/NotoKr_T.ttf') format('truetype'),
-    url('../fonts/NotoKr_T.svg#NotoKr_T') format('svg');
-font-weight: normal;
-font-style: normal;
-}
-
 @font-face {
 font-family: 'pretty_night';
 src: url('../fonts/Cafe24Oneprettynight.eot');
@@ -97,17 +12,7 @@ font-style: normal;
 
 
 /*font------------------------------------------------------------------------------------------------------------------ */
-.Nt_R{ font-family:'NotoKr_R' !important; } 
-.Nt_BK{ font-family:'NotoKr_BK' !important; } 
-.Nt_B{ font-family:'NotoKr_B' !important; } 
-.Nt_DL{ font-family:'NotoKr_DL' !important; } 
-.Nt_L{ font-family:'NotoKr_L' !important; } 
-.Nt_M{ font-family:'NotoKr_M' !important; } 
-.Nt_T{ font-family:'NotoKr_T' !important; }
-
 .pretty_N{ font-family:'pretty_night' !important; }
-
-
 
 /*set_up-----------------------------------------------------------------------------------------------------------------*/
 *{box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}
@@ -151,4 +56,3 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 select{border-radius:0; /* 아이폰 사파리 보더 없애기 */ -webkit-appearance:none; /* 화살표 없애기 for chrome*/ -moz-appearance:none; /* 화살표 없애기 for firefox*/ appearance:none; /* 화살표 없애기 공통*/}
 select::-ms-expand{display:none; /* 화살표 없애기 for IE10, 11*/ }
-
