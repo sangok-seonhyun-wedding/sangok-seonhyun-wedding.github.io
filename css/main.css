@@ -67,6 +67,9 @@ div.modal-gallery div.gallery-slider .slick-list,
 div.modal-gallery div.gallery-slider .slick-track{height:100%;}
 div.modal-gallery div.gallery-slider .slick-slide{display:flex; align-items:center; width:100%; height:100%;}
 div.modal-gallery div.gallery-slider .slick-slide img{width:100%; height:auto;}
+div.modal-gallery div.gallery-slider .slick-arrow{position:absolute; top:50%; width:2.5rem; height:2.5rem; border:0; border-radius:50%; background:rgba(0, 0, 0, 0.2) url("../img/IC_arrow_WH.svg") center / 40% auto no-repeat; color:rgba(0, 0, 0, 0); text-indent:-9999px; z-index:2;}
+div.modal-gallery div.gallery-slider .slick-arrow.slick-prev{left:0.5rem; transform:translateY(-50%) rotate(180deg);}
+div.modal-gallery div.gallery-slider .slick-arrow.slick-next{right:0.5rem; transform:translateY(-50%);}
 div.modal-gallery div.gallery-slider-nav{width:100%; height:5rem; margin-top:0.5rem; overflow:hidden;}
 div.modal-gallery div.gallery-slider-nav .slick-list{height:100%; margin:0 -0.25rem;}
 div.modal-gallery div.gallery-slider-nav .slick-track{height:100%; padding:5px 0;}
