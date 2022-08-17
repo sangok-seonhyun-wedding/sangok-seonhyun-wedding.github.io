@@ -3,7 +3,7 @@
 	--color-main02: #f79e9e;
 }
 html{touch-action:pan-y;}
-body{overflow:hidden; font-family:"pretty_night";}
+body{overflow:hidden;}
 body.default{overflow:inherit;}
 
 div[class^="sect0"]{width:90%; margin:0 auto; padding:3rem 0;}
