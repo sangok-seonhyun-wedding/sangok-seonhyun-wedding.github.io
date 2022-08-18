@@ -2,6 +2,9 @@
 	--color-main01: #78c0e9;
 	--color-main02: #f79e9e;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
 html{touch-action:pan-y;}
 body{overflow:hidden;}
 body.default{overflow:inherit;}
@@ -13,6 +16,8 @@ div[class^="sect0"] div.sect-tit div.kor{font-size:2rem; font-weight:600;}
 
 .color01{color:var(--color-main01);}
 .color02{color:var(--color-main02);}
+
+.Nt_R{font-family:"Noto Sans KR";}
 
 div.wrap{max-width:480px; margin:0 auto;}
 
